@@ -1,0 +1,140 @@
+# Fisheries configuration -------------------------------------------------
+
+# Fisheries
+fisheries.name.fsh0  = bottomtrawlers
+fisheries.name.fsh1  = purseseinerspelagictrawlers
+fisheries.name.fsh2  = mixedartisanalgears
+fisheries.name.fsh3  =  longliners
+fisheries.name.fsh4  = tunapurseseiners
+fisheries.name.fsh5  = othersandunknown
+
+simulation.fishing.mortality.enabled = TRUE
+fisheries.movement.netcdf.enabled = TRUE
+
+fisheries.catchability.file = fisheries/catchability_file.csv
+fisheries.discards.file = fisheries/discards_file.csv
+
+# Fishery 0
+fisheries.rate.base.fsh0 = 1.38334
+fisheries.period.number.fsh0 = 1
+fisheries.period.start.fsh0 = 0
+fisheries.rate.byperiod.fsh0 = 1
+#fisheries.seasonality.file.fsh0 = fisheries/Fishery_seasonality/fishery0_seasonality.csv 
+fisheries.season.number.fsh0;1
+fisheries.season.start.fsh0;0
+fisheries.seasonality.fsh0;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh0;1
+fisheries.selectivity.type.fsh0 = 0
+fisheries.selectivity.l50.fsh0 = 9.625
+#fisheries.selectivity.l75.fsh0 = 16.65
+fisheries.rate.bySeason.fsh0 = 1
+
+fisheries.movement.fishery.map0 = bottomtrawlers
+fisheries.movement.variable.map0 = effort
+fisheries.movement.nsteps.year.map0 = 1
+fisheries.movement.file.map0 = fisheries/Fishery_maps/bottom_trawlers.nc
+
+
+# Fishery 1
+fisheries.rate.base.fsh1 = 0.836044
+fisheries.period.number.fsh1 = 1
+fisheries.period.start.fsh1 = 0
+fisheries.rate.byperiod.fsh1 = 1
+#fisheries.seasonality.file.fsh1 = fisheries/Fishery_seasonality/fishery1_seasonality.csv 
+fisheries.season.number.fsh1;1
+fisheries.season.start.fsh1;0
+fisheries.seasonality.fsh1;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh1;1
+fisheries.selectivity.type.fsh1 = 0
+fisheries.selectivity.l50.fsh1 = 10.5
+#fisheries.selectivity.l75.fsh1 = 44.7
+fisheries.rate.bySeason.fsh1 = 1
+
+fisheries.movement.fishery.map1 = purseseinerspelagictrawlers
+fisheries.movement.variable.map1 = effort
+fisheries.movement.nsteps.year.map1 = 1
+fisheries.movement.file.map1 = fisheries/Fishery_maps/purse_seiners_pelagic_trawlers.nc
+
+
+# Fishery 2
+fisheries.rate.base.fsh2 = 1.30294477371783
+fisheries.period.number.fsh2 = 1
+fisheries.period.start.fsh2 = 0
+fisheries.rate.byperiod.fsh2 = 1
+#fisheries.seasonality.file.fsh2 = fisheries/Fishery_seasonality/fishery2_seasonality.csv 
+fisheries.season.number.fsh2;1
+fisheries.season.start.fsh2;0
+fisheries.seasonality.fsh2;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh2;1
+fisheries.selectivity.type.fsh2 = 0
+fisheries.selectivity.l50.fsh2 = 11.125
+#fisheries.selectivity.l75.fsh2 = 11
+fisheries.rate.bySeason.fsh2 = 1
+
+fisheries.movement.fishery.map2 = mixedartisanalgears
+fisheries.movement.variable.map2 = effort
+fisheries.movement.nsteps.year.map2 = 1
+fisheries.movement.file.map2 = fisheries/Fishery_maps/artisanal.nc
+
+
+# Fishery 3
+fisheries.rate.base.fsh3 = 0.297626163214565
+fisheries.period.number.fsh3 = 1
+fisheries.period.start.fsh3 = 0
+fisheries.rate.byperiod.fsh3 = 1
+#fisheries.seasonality.file.fsh3 = fisheries/Fishery_seasonality/fishery3_seasonality.csv 
+fisheries.season.number.fsh3;1
+fisheries.season.start.fsh3;0
+fisheries.seasonality.fsh3;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh3;1
+fisheries.selectivity.type.fsh3 = 0
+fisheries.selectivity.l50.fsh3 = 39
+#fisheries.selectivity.l75.fsh3 = 34.9
+fisheries.rate.bySeason.fsh3 = 1
+
+fisheries.movement.fishery.map3 = longliners
+fisheries.movement.variable.map3 = effort
+fisheries.movement.nsteps.year.map3 = 1
+fisheries.movement.file.map3 = fisheries/Fishery_maps/longliners.nc
+
+
+# Fishery 4
+fisheries.rate.base.fsh4 = 0.0429541298965719
+fisheries.period.number.fsh4 = 1
+fisheries.period.start.fsh4 = 0
+fisheries.rate.byperiod.fsh4 = 1
+#fisheries.seasonality.file.fsh4 = fisheries/Fishery_seasonality/fishery4_seasonality.csv
+fisheries.season.number.fsh4;1
+fisheries.season.start.fsh4;0
+fisheries.seasonality.fsh4;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh4;1
+fisheries.selectivity.type.fsh4 = 0
+fisheries.selectivity.l50.fsh4 = 44.5
+#fisheries.selectivity.l75.fsh4 = 33
+fisheries.rate.bySeason.fsh4 = 1
+
+fisheries.movement.fishery.map4 = tunapurseseiners
+fisheries.movement.variable.map4 = effort
+fisheries.movement.nsteps.year.map4 = 1
+fisheries.movement.file.map4 = fisheries/Fishery_maps/tuna_purse_seiners.nc
+
+
+# Fishery 5
+fisheries.rate.base.fsh5 = 0.895759900514061
+fisheries.period.number.fsh5 = 1
+fisheries.period.start.fsh5 = 0
+fisheries.rate.byperiod.fsh5 = 1
+#fisheries.seasonality.file.fsh5 = fisheries/Fishery_seasonality/fishery5_seasonality.csv
+fisheries.season.number.fsh5;1
+fisheries.season.start.fsh5;0
+fisheries.seasonality.fsh5;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667;0.04166667
+#fisheries.selectivity.tiny.fsh5;1
+fisheries.selectivity.type.fsh5 = 0
+fisheries.selectivity.l50.fsh5 = 12.25
+#fisheries.selectivity.l75.fsh5 = 32
+fisheries.rate.bySeason.fsh5 = 1
+
+fisheries.movement.fishery.map5 = othersandunknown
+fisheries.movement.variable.map5 = effort
+fisheries.movement.nsteps.year.map5 = 1
+fisheries.movement.file.map5 = fisheries/Fishery_maps/others_unknown.nc
