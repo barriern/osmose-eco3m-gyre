@@ -1,6 +1,6 @@
 # Osmose 4.3.0 - Deprecated parameter grid.java.classname
 # moving parameters to switch to netcdf files
 grid.netcdf.file;data/GYRE_nemo36_SPIN_1m_vertical_mean_cop.nc
-grid.var.lat;latitude
-grid.var.lon;longitude
+grid.var.lat;lat
+grid.var.lon;lon
 grid.var.mask;tmask

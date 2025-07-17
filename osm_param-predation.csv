@@ -1,4 +1,4 @@
-predation.accessibility.file;predation-accessibility-melika.csv
+predation.accessibility.file;predation-accessibility.csv
 predation.accessibility.stage.structure;age
 predation.predPrey.stage.structure;size
 predation.efficiency.critical.sp0;0.57

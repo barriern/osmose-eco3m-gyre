@@ -1,5 +1,16 @@
 species.biomass.nsteps.year;12
 
+species.type.sp300;resource
+species.type.sp301;resource
+species.type.sp302;resource
+species.type.sp303;resource
+species.type.sp304;resource
+species.type.sp305;resource
+species.type.sp306;resource
+species.type.sp307;resource
+species.type.sp308;resource
+species.type.sp309;resource
+
 # LTL forcing;
 species.name.sp300;BAC-C
 species.file.sp300;data/GYRE_nemo36_SPIN_1m_vertical_mean_bac.nc
@@ -37,7 +48,7 @@ species.size.min.sp305;1e-9
 species.size.max.sp305;1e-8
 species.multiplier.sp305;267e-3
 
-species.name.sp306;MOPL-C
+species.name.sp306;MOPL-c
 species.file.sp306;data/GYRE_nemo36_SPIN_1m_vertical_mean_mop.nc
 species.size.min.sp306;1e-3
 species.size.max.sp306;0.1

@@ -121,7 +121,7 @@ simulation.nschool.sp100;130
 
 simulation.ncpu;8
 # Osmose 4.2.3 - Renamed parameter simulation.nplankton into simulation.nresource
-simulation.nresource;6
+simulation.nresource;10
 simulation.nsimulation;1
 simulation.nspecies;101
 simulation.nfisheries;6
@@ -144,7 +144,7 @@ osmose.configuration.movement;osm_param-movement.csv
 #osmose.configuration.movement.CC.2050;osm_param-movement-CC-2050.csv
 #osmose.configuration.movement.CC.2100,osm_param-movement-CC-2100.csv
 osmose.configuration.movement.maps;osm_additional-map-params.csv
-osmose.configuration.mpa;osm_param-mpa.csv
+#osmose.configuration.mpa;osm_param-mpa.csv
 osmose.configuration.mortality.fishing;osm_param-fishing.csv
 #osmose.configuration.mortality.fishing;osm_param-fishing-reduc-50.csv
 
@@ -153,9 +153,9 @@ osmose.configuration.mortality.predation;osm_param-predation.csv
 osmose.configuration.mortality.starvation;osm_param-starvation.csv
 osmose.configuration.reproduction;osm_param-reproduction.csv
 osmose.configuration.species;osm_param-species.csv
-osmose.configuration.plankton;osm_param-ltl_melika.csv
+osmose.configuration.plankton;osm_param-ltl.csv
 osmose.configuration.grid;osm_param-grid.csv
 osmose.configuration.initialization;osm_param-seeding.csv
 #osmose.configuration.effort;osm_param-effort.csv
-osmose.configuration.effort;osm_param-corrected-effort.csv
+#osmose.configuration.effort;osm_param-corrected-effort.csv
 osmose.configuration.fisheries;osm_param-fisheries.csv
