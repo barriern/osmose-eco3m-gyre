@@ -9,7 +9,8 @@ osmose.version;4.3.3
 # Time;
 simulation.time.ndtPerYear;24
 
-simulation.time.nyear;200
+#simulation.time.nyear;200
+simulation.time.nyear;1
 ;
 # Restart;
 #simulation.restart.file;LALA.nc
