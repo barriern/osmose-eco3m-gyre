@@ -119,7 +119,7 @@ simulation.nschool.sp98;78
 simulation.nschool.sp99;11
 simulation.nschool.sp100;130
 
-simulation.ncpu;8
+simulation.ncpu;1
 # Osmose 4.2.3 - Renamed parameter simulation.nplankton into simulation.nresource
 simulation.nresource;10
 simulation.nsimulation;1
