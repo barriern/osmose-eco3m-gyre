@@ -1,4 +1,13 @@
-species.biomass.nsteps.year;12
+species.nsteps.year.sp300;12
+species.nsteps.year.sp301;12
+species.nsteps.year.sp302;12
+species.nsteps.year.sp303;12
+species.nsteps.year.sp304;12
+species.nsteps.year.sp305;12
+species.nsteps.year.sp306;12
+species.nsteps.year.sp307;12
+species.nsteps.year.sp308;12
+species.nsteps.year.sp309;12
 
 species.type.sp300;resource
 species.type.sp301;resource
@@ -12,72 +21,72 @@ species.type.sp308;resource
 species.type.sp309;resource
 
 # LTL forcing;
-species.name.sp300;BAC-C
+species.name.sp300;BAC
 species.varname.sp300;BAC-C
-species.file.sp300;data/GYRE_nemo36_SPIN_1m_vertical_mean_bac.nc
+species.filename.sp300;data/GYRE_nemo36_SPIN_1m_vertical_mean_bac.nc
 species.size.min.sp300;6e-5
 species.size.max.sp300;1e-4
 species.multiplier.sp300;267e-3
 
-species.name.sp301;CIL-C
+species.name.sp301;CIL
 species.varname.sp301;CIL-C
-species.file.sp301;data/GYRE_nemo36_SPIN_1m_vertical_mean_cil.nc
+species.filename.sp301;data/GYRE_nemo36_SPIN_1m_vertical_mean_cil.nc
 species.size.min.sp301;5e-3
 species.size.max.sp301;8e-3
 species.multiplier.sp301;267e-3
 
-species.name.sp302;COP-C
+species.name.sp302;COP
 species.varname.sp302;COP-C
-species.file.sp302;data/GYRE_nemo36_SPIN_1m_vertical_mean_cop.nc
+species.filename.sp302;data/GYRE_nemo36_SPIN_1m_vertical_mean_cop.nc
 species.size.min.sp302;2e-2
 species.size.max.sp302;1
 species.multiplier.sp302;267e-3
 
-species.name.sp303;HNF-C
+species.name.sp303;HNF
 species.varname.sp303;HNF-C
-species.file.sp303;data/GYRE_nemo36_SPIN_1m_vertical_mean_hnf.nc
+species.filename.sp303;data/GYRE_nemo36_SPIN_1m_vertical_mean_hnf.nc
 species.size.min.sp303;1e-3
 species.size.max.sp303;3e-3
 species.multiplier.sp303;267e-3
 
-species.name.sp304;MODLC-C
+species.name.sp304;MODLC
 species.varname.sp304;MODLC-C
-species.file.sp304;data/GYRE_nemo36_SPIN_1m_vertical_mean_mod.nc
+species.filename.sp304;data/GYRE_nemo36_SPIN_1m_vertical_mean_mod.nc
 species.size.min.sp304;1e-9
 species.size.max.sp304;1e-8
 species.multiplier.sp304;267e-3
 
-species.name.sp305;MODSL-C
+species.name.sp305;MODSL
 species.varname.sp305;MODSL-C
-species.file.sp305;data/GYRE_nemo36_SPIN_1m_vertical_mean_mod.nc
+species.filename.sp305;data/GYRE_nemo36_SPIN_1m_vertical_mean_mod.nc
 species.size.min.sp305;1e-9
 species.size.max.sp305;1e-8
 species.multiplier.sp305;267e-3
 
-species.name.sp306;MOPL-c
+species.name.sp306;MOPL
 species.varname.sp306;MOPL-c
-species.file.sp306;data/GYRE_nemo36_SPIN_1m_vertical_mean_mop.nc
+species.filename.sp306;data/GYRE_nemo36_SPIN_1m_vertical_mean_mop.nc
 species.size.min.sp306;1e-3
 species.size.max.sp306;0.1
 species.multiplier.sp306;267e-3
 
-species.name.sp307;MOPS-C
+species.name.sp307;MOPS
 species.varname.sp307;MOPS-C
-species.file.sp307;data/GYRE_nemo36_SPIN_1m_vertical_mean_mop.nc
+species.filename.sp307;data/GYRE_nemo36_SPIN_1m_vertical_mean_mop.nc
 species.size.min.sp307;1e-4
 species.size.max.sp307;1e-3
 species.multiplier.sp307;267e-3
 
-species.name.sp308;PHYL-C
+species.name.sp308;PHYL
 species.varname.sp308;PHYL-C
-species.file.sp308;data/GYRE_nemo36_SPIN_1m_vertical_mean_phyl.nc
+species.filename.sp308;data/GYRE_nemo36_SPIN_1m_vertical_mean_phyl.nc
 species.size.min.sp308;1e-3
 species.size.max.sp308;5e-3
 species.multiplier.sp308;267e-3
 
-species.name.sp309;PHYS-C
+species.name.sp309;PHYS
 species.varname.sp309;PHYS-C
-species.file.sp309;data/GYRE_nemo36_SPIN_1m_vertical_mean_phys.nc
+species.filename.sp309;data/GYRE_nemo36_SPIN_1m_vertical_mean_phys.nc
 species.size.min.sp309;1.2e-4
 species.size.max.sp309;1e-3
 species.multiplier.sp309;267e-3
