@@ -4,6 +4,8 @@
 #stochastic.mortality.seed;0
 #movement.randomseed.fixed;true
 
+simulation.mesh.mask = CONFIG/GYRE_Eco3m/EXP00/mesh_mask.nc
+
 osmose.version;4.3.3
 ;
 # Time;
