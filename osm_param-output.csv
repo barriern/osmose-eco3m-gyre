@@ -1,8 +1,8 @@
 # Main output parameters;
-output.start.year;140
+output.start.year;0
 output.file.prefix;med
 output.dir.path;output
-output.recordfrequency.ndt;24
+output.recordfrequency.ndt;1
 # CSV separator (COMA;
 output.csv.separator;COMA
 ;
